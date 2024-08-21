@@ -3,7 +3,7 @@ This Website aims to Generate EXE files on Windows 10+, using simple .NET Framew
 
 ### Here are the steps shorten of all you need to do:
 
-- Copy and Paste in your source code file path.
+- Copy and Paste in; your source code file path.
 
 - Hit the Generate button and copy the code it generated for you.
 
