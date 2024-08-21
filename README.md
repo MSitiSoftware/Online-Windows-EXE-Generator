@@ -1,12 +1,14 @@
 # Online Windows EXE Generator
-This Website aims to Generate EXE files on Windows 10+, using simple .NET Framework languages like "Visual Basic, JScript.NET and C#.". This website can easily compile your C# code for you **without you needing to install anything on your computer!** You just need to enter there the path of your C# Source Code file and then it will generate a specific code that you will need to copy it, then you will need to go to your Windows Search bar and paste this code into your Windows Search bar and press enter! Then if everything works right without any errors in your code; there should be a new EXE file waiting for you in the same folder where your Source Code is, and it has the same name as the Source Code file. And That's it!
 
-### Here are the steps shorten of all you need to do:
+This website allows you to generate EXE files on Windows 10+ using simple .NET Framework languages like Visual Basic, JScript.NET, and C#. It can easily compile your C# code without requiring you to install any additional software on your computer.
 
-- Copy and Paste in; your source code file path.
-
-- Hit the Generate button and copy the code it generated for you.
-
-- Paste the generated code in your Windows Search Bar, and hit enter.
-
-- **And That's It!**
+## How it works:
+1. Enter the path of your C# source code file.
+2. The website generates a specific command for you to copy.
+3. Paste this command into your Windows Search bar and press Enter.
+4. If your code is error-free, a new EXE file will be generated in the same folder as your source code, with the same name.
+### Quick Steps:
+1. Copy and paste your source code file path into the website.
+2. Hit the Generate button and copy the generated command.
+3. Paste the command into your Windows Search bar and hit Enter.
+4. That's it!
