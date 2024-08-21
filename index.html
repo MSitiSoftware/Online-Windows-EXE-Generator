@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Windows EXE Generator | Created By MSiti Software</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="copyright">
+        <p style="text-align: center; font-size: 60px;">(C) MSiti Software, All rights reserved.</p>
+    </div>
+    
+    <div id="pageContents">
+        <p>This website was created by MSiti Software (Person creator: "MaayanM.C").</p>
+        <p>This Website's purpose is to Generate EXE files on Windows 10 and above, by just using simple .NET Framework languages like "Visual Basic, JScript.NET and C#.". This website can easily compile for you your C# code without you needing to install anything on your computer! You just need to enter here the path of your C# source code file and then it will generate you a specific code that you will need to copy it, then you will need to go to your Windows Search, and then paste this code in the Windows Search and press enter, then if everything worked right there should be a new EXE file waiting for you in the same folder where your source code was, and it has the same name as the source code file had. That's it :)</p>
+        <p>Follow these steps to generate the EXE successfully:</p>
+        <ol type="i">
+            <il class="instruction">1: First of all you need to have a ready source code file of one of these programming languages:</il>
+            <ol>
+                <il>- C#</il><br>
+                <il>- Visual Basic</il><br>
+                <il>- JScript.NET</il><br>
+            </ol>
+            <br>
+            <il class="instruction">2: Once you have a ready source code file, you will need to select it and copy its full path on your computer.</il>
+            <ol type="">
+                <label>In Windows Explorer you can copy the path by clicking on "Copy path" button in the top left of the Toolbar of the Windows Explorer.</label><br>
+                <img src="instruction_image_1.png" alt="Copying the path of the source code file in Windows Explorer."></image>
+            </ol>
+            <br>
+            <il class="instruction">3: Now, go back here and paste the path in the "Enter the path of the source file:".</il>
+            <br><br>
+            <il class="instruction">4: If there are assemblies in your code that usually need to be referenced, you can type their name in "References for assembly? (optional):".</il>
+            <br><br>
+            <il class="instruction">5: If you want your EXE to avoid creating a console window when starting up, check "Make Windows Application? (optional):".</il>
+            <br><br>
+            <il class="instruction">6: Now, click on the "Generate Compilation Call" button.</il>
+            <br><br>
+            <il class="instruction">7: You will now see a long weird code in the "The code to paste in the Windows Search and pressing Enter:". Select all of it and copy it.</il>
+            <br><br>
+            <il class="instruction">8: Paste this in your Windows Search and press Enter.</il>
+            <!--<ol type="">
+                <label>The Windows Search in Windows 10 looks like:</label>
+                <br><img src="instruction_image_3.png" alt="How the Windows Search may look in Windows 10.">
+            </ol>-->
+            <br><br>
+            <il class="instruction">9: Go back to your the folder where your source code file is, you will now see there your EXE, it will have the same name as the source code file had. Thats it. Enjoy :)</il>
+        </ol>
+        <hr>
+        <label style="font-weight: bold;" for="srcPath">Enter the path of the source file:</label><label style="color: red;">*</label>
+        <input type="text" id="srcPath" size="100"><br><br>
+        <label for="RA">References for assembly? (optional): </label><input type="text" id="RA"><br><br>
+        <label for="winApp">Make Windows Application? (optional): </label><input type="checkbox" id="winApp"><br><br>
+        <button onclick="GetCompilationCall()" style="width: 100%;">Generate Compilation Call</button>
+        <br><label style="font-weight: bold;" for="compilationCall">The code to paste in the Windows Search and pressing Enter:</label>
+        <br><input id="compilationCall" type="text" style="width: 100%;" readonly>
+
+        <br><br><button onclick="copy()">Select</button> <button onclick="clearc()">Clear</button> <button onclick="reseta()">Reset</button>
+
+        <hr>
+    </div>
+    
+</body>
