@@ -1,6 +1,6 @@
 # Online Windows EXE Generator
 
-This website allows you to generate EXE files on Windows 10+ using simple .NET Framework languages like Visual Basic, JScript.NET, and C#. It can easily compile your C# code without requiring you to install any additional software on your computer AT ALL!
+This website allows you to generate EXE files on Windows 10+ using simple .NET Framework languages like Visual Basic, JScript.NET, and C#. It can easily compile your C# code without requiring you to install any additional software on your computer at all!
 
 ## How it works:
 1. Enter the path of your C# source code file.
